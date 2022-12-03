@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "property_name": "Estate Vista",
+        "property_type": "Apartment",
+        "property_location": "New Delhi",
+        "bedrooms": 3,
+        "bathroom": 2,
+        "dimensions": "5x7",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061764/rental%20website/Apartment_4_rsujj7.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "true",
+        "property_rent": "12k"
+    },
+    {
+        "id": 2,
+        "property_name": "Genie Property",
+        "property_type": "Apartment",
+        "property_location": "Kolkata",
+        "bedrooms": 4,
+        "bathroom": 2,
+        "dimensions": "6 x 7",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_2_nifyq5.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "false",
+        "property_rent": "12k"
+    },
+    {
+        "id": 3,
+        "property_name": "Heaven Homes",
+        "property_type": "Apartment",
+        "property_location": "Mumbai",
+        "bedrooms": 2,
+        "bathroom": 1,
+        "dimensions": "4.5 x 5",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_6_gvrvdo.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "true",
+        "property_rent": "12k"
+    },
+    {
+        "id": 4,
+        "property_name": "Estate Guardian",
+        "property_type": "Apartment",
+        "property_location": "Mumbai",
+        "bedrooms": 2,
+        "bathroom": 2,
+        "dimensions": "6.7 x 5",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_1_j8l5uj.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "true",
+        "property_rent": "12k"
+    },
+    {
+        "id": 5,
+        "property_name": "Homeland",
+        "property_type": "Apartment",
+        "property_location": "New Delhi",
+        "bedrooms": 3,
+        "bathroom": 3,
+        "dimensions": "7 x 6",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_5_m8eawn.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "false",
+        "property_rent": "12k"
+    },
+    {
+        "id": 6,
+        "property_name": "Property Collective",
+        "property_type": "Apartment",
+        "property_location": "Bangalore",
+        "bedrooms": 2,
+        "bathroom": 2,
+        "dimensions": "5 x 4",
+        "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_3_swwbjz.jpg",
+        "movein_date": "5-12-2022",
+        "is_popular": "false",
+        "property_rent": "12k"
+    }
+]
