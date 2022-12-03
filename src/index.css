@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.react-calendar {
+    font-family: 'Poppins';
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.react-calendar__tile--active {
+    background-color: rgb(99 102 241) !important;
+}

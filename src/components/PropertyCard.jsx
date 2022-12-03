@@ -20,13 +20,13 @@ export default function PropertyCard({ property }) {
   } = property;
 
   return (
-    <div className="max-w-[400px] bg-white rounded-md overflow-hidden shadow-sm">
+    <div className="max-w-[400px] bg-white rounded-md overflow-hidden shadow-sm select-none">
       <div className="w-full relative">
         <LazyLoadImage
           src={property_img}
           alt={property_name}
           placeholderSrc={property_img}
-          className="img-lazy w-full"
+          className="img-lazy w-full min-h-[200px]"
           effect="blur"
         />
         {is_popular === "true" && (

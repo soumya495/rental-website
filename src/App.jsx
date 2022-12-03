@@ -1,3 +1,4 @@
+import FilterForm from "./components/FilterForm";
 import Header from "./components/Header";
 import PropertyList from "./components/PropertyList";
 
@@ -11,6 +12,7 @@ function App() {
             Search properties to rent
           </h2>
         </div>
+        <FilterForm />
         <PropertyList />
       </div>
     </div>
