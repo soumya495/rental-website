@@ -10,7 +10,7 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061764/rental%20website/Apartment_4_rsujj7.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "true",
-        "property_rent": "12k"
+        "property_rent": 20000
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_2_nifyq5.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "false",
-        "property_rent": "12k"
+        "property_rent": 35000
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_6_gvrvdo.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "true",
-        "property_rent": "12k"
+        "property_rent": 24500
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_1_j8l5uj.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "true",
-        "property_rent": "12k"
+        "property_rent": 62000
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_5_m8eawn.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "false",
-        "property_rent": "12k"
+        "property_rent": 93500
     },
     {
         "id": 6,
@@ -75,6 +75,6 @@
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_3_swwbjz.jpg",
         "movein_date": "5-12-2022",
         "is_popular": "false",
-        "property_rent": "12k"
+        "property_rent": 35400
     }
 ]

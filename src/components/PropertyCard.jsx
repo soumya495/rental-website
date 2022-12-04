@@ -5,6 +5,7 @@ import { RiHotelBedFill } from "react-icons/ri";
 import { MdShower } from "react-icons/md";
 import { RxDimensions } from "react-icons/rx";
 import { BsStars } from "react-icons/bs";
+import { nFormatter } from "../numFormatter";
 
 export default function PropertyCard({ property }) {
   const {
@@ -41,7 +42,7 @@ export default function PropertyCard({ property }) {
       <div className="p-4 px-4">
         <p className="font-poppins text-gray-400 text-sm tracking-wider">
           <span className="text-xl font-semibold text-indigo-500">
-            ₹{property_rent}
+            ₹{nFormatter(property_rent)}
           </span>
           /month
         </p>

@@ -1,5 +1,6 @@
 import DateSearch from "./Filter/DateSearch";
 import LocationSearch from "./Filter/LocationSearch";
+import PriceSearch from "./Filter/PriceSearch";
 
 export default function FilterForm() {
   return (
@@ -13,6 +14,8 @@ export default function FilterForm() {
         <LocationSearch />
         <div className="h-[60px] w-[0.09rem] bg-gray-200 mx-4"></div>
         <DateSearch />
+        <div className="h-[60px] w-[0.09rem] bg-gray-200 mx-4"></div>
+        <PriceSearch />
       </div>
     </>
   );
