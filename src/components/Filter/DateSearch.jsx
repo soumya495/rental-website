@@ -24,7 +24,7 @@ export default function DateSearch() {
 
       <p
         className="font-poppins font-bold text-gray-700 cursor-pointer flex items-center gap-x-4"
-        onClick={() => setShowCalendar(true)}
+        onClick={() => setShowCalendar((prev) => !prev)}
       >
         {!moveInDate ? "Select Move-in Date" : moveInDate}
         <BsCalendar2Event className="fill-indigo-500" />
