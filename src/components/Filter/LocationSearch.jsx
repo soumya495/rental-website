@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import properties from "../../data.json";
 
-export default function LocationSearch() {
+export default function LocationSearch({ setSearchTerms }) {
   let items = [];
   properties.forEach((property) => {
     let notPresent = true;
@@ -13,14 +13,17 @@ export default function LocationSearch() {
       items.push({ id: property.id, name: property.property_location });
     }
   });
+  items.unshift({ id: 1919191, name: "All India" });
 
   const [showSearch, setShowSearch] = useState(false);
   const [currentTerm, setCurrentTerm] = useState("Choose Location");
 
-  console.log(items);
-
   const handleOnSelect = (item) => {
     setCurrentTerm(item.name);
+    setSearchTerms((prev) => ({
+      ...prev,
+      location: item.name,
+    }));
     setShowSearch(false);
   };
 
@@ -31,7 +34,7 @@ export default function LocationSearch() {
   };
 
   return (
-    <div className="locationSearch flex-1">
+    <div className="locationSearch w-full md:w-1/2 lg:w-1/4">
       <p className="font-poppins text-xs text-gray-400">Where</p>
       {showSearch ? (
         <ReactSearchAutocomplete

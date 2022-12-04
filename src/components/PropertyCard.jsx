@@ -6,6 +6,7 @@ import { MdShower } from "react-icons/md";
 import { RxDimensions } from "react-icons/rx";
 import { BsStars } from "react-icons/bs";
 import { nFormatter } from "../numFormatter";
+import { motion } from "framer-motion";
 
 export default function PropertyCard({ property }) {
   const {
@@ -21,13 +22,19 @@ export default function PropertyCard({ property }) {
   } = property;
 
   return (
-    <div className="max-w-[400px] bg-white rounded-md overflow-hidden shadow-sm select-none">
-      <div className="w-full relative aspect-[3/2] overflow-hidden">
+    <motion.div
+      layout
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      className="max-w-[400px] bg-white rounded-md overflow-hidden shadow-sm select-none"
+    >
+      <div className="w-full relative aspect-[3/2]">
         <LazyLoadImage
           src={property_img}
           alt={property_name}
           placeholderSrc={property_img}
-          className="img-lazy w-full min-h-[200px]"
+          className="img-lazy w-full min-h-[200px] aspect-[3/2]"
           effect="blur"
         />
         {is_popular === "true" && (
@@ -74,6 +81,6 @@ export default function PropertyCard({ property }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

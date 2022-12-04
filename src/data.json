@@ -8,7 +8,7 @@
         "bathroom": 2,
         "dimensions": "5x7",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061764/rental%20website/Apartment_4_rsujj7.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-10-2022",
         "is_popular": "true",
         "property_rent": 20000
     },
@@ -21,7 +21,7 @@
         "bathroom": 2,
         "dimensions": "6 x 7",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_2_nifyq5.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-22-2022",
         "is_popular": "false",
         "property_rent": 35000
     },
@@ -34,7 +34,7 @@
         "bathroom": 1,
         "dimensions": "4.5 x 5",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_6_gvrvdo.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "1-10-2023",
         "is_popular": "true",
         "property_rent": 24500
     },
@@ -47,7 +47,7 @@
         "bathroom": 2,
         "dimensions": "6.7 x 5",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_1_j8l5uj.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "2-20-2023",
         "is_popular": "true",
         "property_rent": 62000
     },
@@ -60,7 +60,7 @@
         "bathroom": 3,
         "dimensions": "7 x 6",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_5_m8eawn.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "1-14-2023",
         "is_popular": "false",
         "property_rent": 93500
     },
@@ -73,7 +73,7 @@
         "bathroom": 2,
         "dimensions": "5 x 4",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670061763/rental%20website/Apartment_3_swwbjz.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "1-10-2023",
         "is_popular": "false",
         "property_rent": 35400
     },
@@ -86,7 +86,7 @@
         "bathroom": 2,
         "dimensions": "10 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670122692/rental%20website/Farmhouse_5_eencbf.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-2-2022",
         "is_popular": "true",
         "property_rent": 78500
     },
@@ -99,7 +99,7 @@
         "bathroom": 3,
         "dimensions": "14 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670122692/rental%20website/Farmhouse_4_vhpw2l.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-2-2022",
         "is_popular": "false",
         "property_rent": 99500
     },
@@ -112,7 +112,7 @@
         "bathroom": 2,
         "dimensions": "8 x 10",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670122692/rental%20website/Farmhouse_1_e4tiwa.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "1-10-2023",
         "is_popular": "false",
         "property_rent": 68000
     },
@@ -125,7 +125,7 @@
         "bathroom": 2,
         "dimensions": "8 x 9",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670122692/rental%20website/Farmhouse_2_wcywdv.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-4-2022",
         "is_popular": "false",
         "property_rent": 88750
     },
@@ -138,7 +138,7 @@
         "bathroom": 2,
         "dimensions": "8 x 9",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670122692/rental%20website/Farmhouse_3_tsltni.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-1-2022",
         "is_popular": "false",
         "property_rent": 70500
     },
@@ -151,7 +151,7 @@
         "bathroom": 3,
         "dimensions": "10 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670123255/rental%20website/FrenchCountry_1_kvdpm2.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-1-2022",
         "is_popular": "false",
         "property_rent": 120000
     },
@@ -164,7 +164,7 @@
         "bathroom": 2,
         "dimensions": "8 x 10",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670123255/rental%20website/FrenchCountry_4_ilhqbd.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-1-2022",
         "is_popular": "true",
         "property_rent": 105000
     },
@@ -177,7 +177,7 @@
         "bathroom": 3,
         "dimensions": "10 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670123255/rental%20website/FrenchCountry_2_xjtjg0.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-24-2022",
         "is_popular": "false",
         "property_rent": 117000
     },
@@ -190,7 +190,7 @@
         "bathroom": 4,
         "dimensions": "14 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670123255/rental%20website/FrenchCountry_3_juhsnw.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "1-20-2023",
         "is_popular": "false",
         "property_rent": 157500
     },
@@ -203,8 +203,8 @@
         "bathroom": 4,
         "dimensions": "14 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670123255/rental%20website/FrenchCountry_5_jipmnd.jpg",
-        "movein_date": "5-12-2022",
-        "is_popular": "false",
+        "movein_date": "1-2-2023",
+        "is_popular": "true",
         "property_rent": 107500
     },
     {
@@ -216,7 +216,7 @@
         "bathroom": 3,
         "dimensions": "12 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670124198/rental%20website/Condo_3_ned2ps.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-1-2022",
         "is_popular": "false",
         "property_rent": 80000
     },
@@ -229,7 +229,7 @@
         "bathroom": 3,
         "dimensions": "12 x 12",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670124198/rental%20website/Condo_4_qjuhjv.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-4-2022",
         "is_popular": "false",
         "property_rent": 100000
     },
@@ -242,8 +242,8 @@
         "bathroom": 4,
         "dimensions": "8 x 9",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670124198/rental%20website/Condo_1_nd5flm.jpg",
-        "movein_date": "5-12-2022",
-        "is_popular": "false",
+        "movein_date": "12-10-2022",
+        "is_popular": "true",
         "property_rent": 88700
     },
     {
@@ -255,7 +255,7 @@
         "bathroom": 4,
         "dimensions": "9 x 9",
         "property_img": "https://res.cloudinary.com/smya22/image/upload/v1670124198/rental%20website/Condo_2_ih3xhb.jpg",
-        "movein_date": "5-12-2022",
+        "movein_date": "12-16-2022",
         "is_popular": "false",
         "property_rent": 67750
     }

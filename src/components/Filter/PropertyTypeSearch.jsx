@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Select from "react-tailwindcss-select";
 import properties from "../../data.json";
-export default function PropertyTypeSearch() {
+export default function PropertyTypeSearch({ setSearchTerms }) {
   let options = [];
   properties.forEach((property) => {
     let notPresent = true;
@@ -15,6 +15,7 @@ export default function PropertyTypeSearch() {
       });
     }
   });
+  options.unshift({ value: "All", label: "All Properties" });
 
   const [selectedProperty, setSelectedProperty] = useState(
     "Choose Property Type"
@@ -23,11 +24,15 @@ export default function PropertyTypeSearch() {
 
   const handleChange = (value) => {
     setSelectedProperty(value.value);
+    setSearchTerms((prev) => ({
+      ...prev,
+      propertyType: value.value,
+    }));
     setShowMenu(false);
   };
 
   return (
-    <div className="flex-1 relative">
+    <div className="w-full md:w-1/2 lg:w-1/4 relative">
       <p className="font-poppins text-xs text-gray-400">Property Type</p>
       <div className="propertyTypeSelect">
         <Select
