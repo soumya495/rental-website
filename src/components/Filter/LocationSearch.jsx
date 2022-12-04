@@ -15,7 +15,7 @@ export default function LocationSearch() {
   });
 
   const [showSearch, setShowSearch] = useState(false);
-  const [currentTerm, setCurrentTerm] = useState(items[0]?.name);
+  const [currentTerm, setCurrentTerm] = useState("Choose Location");
 
   console.log(items);
 
@@ -38,7 +38,7 @@ export default function LocationSearch() {
           items={items}
           onSelect={handleOnSelect}
           formatResult={formatResult}
-          inputSearchString={currentTerm}
+          inputSearchString={items[0]?.name}
           showIcon={false}
           onClear={() => {
             setShowSearch(false);
@@ -47,7 +47,6 @@ export default function LocationSearch() {
             borderRadius: "8px",
             boxShadow: "unset",
             zIndex: 100000,
-            // border: "0px",
             fontFamily: "Poppins",
             padding: 0,
             margin: 0,

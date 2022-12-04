@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .react-calendar {
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
     border: none;
     border-radius: 12px;
     overflow: hidden;
@@ -12,4 +12,35 @@
 
 .react-calendar__tile--active {
     background-color: rgb(99 102 241) !important;
+}
+
+.propertyTypeSelect {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.propertyTypeSelect div div {
+    border: none;
+    box-shadow: none;
+}
+
+.propertyTypeSelect>div>div:first-child div:last-child{
+    display: none !important;
+}
+
+.propertyTypeSelect div div{
+    padding: 0 !important;
+    border: none !important;
+}
+
+.propertyTypeSelect div div:focus{
+   box-shadow: none !important;
+   border: none !important;
+}
+
+.propertyTypeSelect div div p{
+    font-weight: 700;
+    color: rgb(55 65 81);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 2px;
 }

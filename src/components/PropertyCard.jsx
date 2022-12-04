@@ -22,7 +22,7 @@ export default function PropertyCard({ property }) {
 
   return (
     <div className="max-w-[400px] bg-white rounded-md overflow-hidden shadow-sm select-none">
-      <div className="w-full relative">
+      <div className="w-full relative aspect-[3/2] overflow-hidden">
         <LazyLoadImage
           src={property_img}
           alt={property_name}
