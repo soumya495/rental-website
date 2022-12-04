@@ -81,7 +81,7 @@ export default function FilterForm({
         </h2>
       </div>
       <div className="mt-12 bg-white p-4 px-8 max-w-[1000px] mx-auto rounded-xl shadow-sm relative">
-        {checkIfSearchSelected && (
+        {/* {checkIfSearchSelected && (
           <p
             onClick={() => {
               setSearchTerms({
@@ -101,7 +101,7 @@ export default function FilterForm({
               <MdClear className="inline text-sm" />
             </span>
           </p>
-        )}
+        )} */}
         <div className="hidden lg:flex justify-between items-center">
           <LocationSearch setSearchTerms={setSearchTerms} />
           <div className="h-[60px] w-[0.09rem] bg-gray-200 mx-4"></div>
